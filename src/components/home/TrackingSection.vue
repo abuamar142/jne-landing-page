@@ -1,11 +1,11 @@
 <template>
-  <section id="track" class="py-20 bg-gradient-to-br from-red-600 to-red-700">
+  <section id="track" class="py-20 bg-gradient-to-br from-blue-600 to-blue-700">
     <div class="container mx-auto px-4 lg:px-8">
       <div class="text-center text-white mb-12">
         <h2 class="text-3xl md:text-4xl font-bold mb-4">
           Lacak Kiriman Anda
         </h2>
-        <p class="text-xl text-red-100 max-w-2xl mx-auto">
+        <p class="text-xl text-blue-100 max-w-2xl mx-auto">
           Pantau status pengiriman real-time dan dapatkan update langsung ke WhatsApp atau email
         </p>
       </div>
@@ -24,7 +24,7 @@
                   v-model="trackingNumber"
                   type="text"
                   placeholder="Masukkan nomor resi (contoh: JNE1234567890)"
-                  class="w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-red-500 focus:outline-none transition-colors duration-300 text-lg"
+                  class="w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-blue-500 focus:outline-none transition-colors duration-300 text-lg"
                   required
                 />
                 <div class="absolute inset-y-0 right-0 pr-4 flex items-center">
@@ -38,7 +38,7 @@
             <button
               type="submit"
               :disabled="isLoading"
-              class="w-full bg-gradient-to-r from-red-600 to-red-700 text-white font-bold py-4 px-8 rounded-xl hover:from-red-700 hover:to-red-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed"
+              class="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white font-bold py-4 px-8 rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               <span v-if="!isLoading" class="flex items-center justify-center">
                 <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">

@@ -1,10 +1,10 @@
 <template>
   <main class="pt-16">
     <!-- Hero Section -->
-    <section class="py-20 bg-gradient-to-br from-red-50 via-white to-red-50">
+    <section class="py-20 bg-gradient-to-br from-blue-50 via-white to-blue-50">
       <div class="container mx-auto px-4 lg:px-8">
         <div class="text-center mb-16">
-          <div class="inline-flex items-center bg-red-100 text-red-600 px-4 py-2 rounded-full text-sm font-semibold mb-6">
+          <div class="inline-flex items-center bg-blue-100 text-blue-600 px-4 py-2 rounded-full text-sm font-semibold mb-6">
             <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
             </svg>
@@ -12,7 +12,7 @@
           </div>
           <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Membangun Indonesia Melalui
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-700">
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-700">
               Layanan Logistik
             </span>
           </h1>
@@ -51,21 +51,21 @@
           <div class="grid grid-cols-2 gap-6">
             <div class="space-y-6">
               <div class="bg-white p-6 rounded-2xl shadow-lg">
-                <div class="text-3xl font-bold text-red-600 mb-2">35+</div>
+                <div class="text-3xl font-bold text-blue-600 mb-2">35+</div>
                 <div class="text-gray-600">Tahun Pengalaman</div>
               </div>
               <div class="bg-white p-6 rounded-2xl shadow-lg">
-                <div class="text-3xl font-bold text-red-600 mb-2">500+</div>
+                <div class="text-3xl font-bold text-blue-600 mb-2">500+</div>
                 <div class="text-gray-600">Kota Terjangkau</div>
               </div>
             </div>
             <div class="space-y-6 pt-8">
               <div class="bg-white p-6 rounded-2xl shadow-lg">
-                <div class="text-3xl font-bold text-red-600 mb-2">10M+</div>
+                <div class="text-3xl font-bold text-blue-600 mb-2">10M+</div>
                 <div class="text-gray-600">Paket per Tahun</div>
               </div>
               <div class="bg-white p-6 rounded-2xl shadow-lg">
-                <div class="text-3xl font-bold text-red-600 mb-2">50K+</div>
+                <div class="text-3xl font-bold text-blue-600 mb-2">50K+</div>
                 <div class="text-gray-600">Mitra Bisnis</div>
               </div>
             </div>
@@ -88,8 +88,8 @@
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="bg-white p-8 rounded-2xl shadow-lg text-center">
-            <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg class="w-8 h-8 text-red-600" fill="currentColor" viewBox="0 0 20 20">
+            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
               </svg>
             </div>
@@ -163,19 +163,19 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-gradient-to-r from-red-600 to-red-700">
+    <section class="py-20 bg-gradient-to-r from-blue-600 to-blue-700">
       <div class="container mx-auto px-4 lg:px-8 text-center">
         <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
           Bergabunglah dengan Jutaan Pelanggan Kami
         </h2>
-        <p class="text-xl text-red-100 mb-8 max-w-2xl mx-auto">
+        <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
           Rasakan pengalaman pengiriman terbaik dan terpercaya untuk kebutuhan bisnis maupun personal Anda.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="#track" class="bg-white text-red-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-all duration-300 shadow-lg">
+          <a href="#track" class="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-all duration-300 shadow-lg">
             Lacak Kiriman
           </a>
-          <a href="#services" class="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-red-600 transition-all duration-300">
+          <a href="#services" class="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-blue-600 transition-all duration-300">
             Lihat Layanan
           </a>
         </div>

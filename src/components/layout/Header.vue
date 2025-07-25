@@ -4,7 +4,7 @@
       <div class="flex justify-between items-center py-4">
         <!-- Logo -->
         <div class="flex items-center space-x-3">
-          <div class="w-10 h-10 bg-gradient-to-r from-red-600 to-red-700 rounded-lg flex items-center justify-center">
+          <div class="w-10 h-10 bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
             <span class="text-white font-bold text-xl">J</span>
           </div>
           <div>
@@ -15,19 +15,19 @@
 
         <!-- Desktop Navigation -->
         <nav class="hidden md:flex items-center space-x-8">
-          <router-link to="/" class="text-gray-700 hover:text-red-600 font-medium transition-colors duration-300">
+          <router-link to="/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">
             Beranda
           </router-link>
-          <a href="#services" class="text-gray-700 hover:text-red-600 font-medium transition-colors duration-300">
+          <a href="#services" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">
             Layanan
           </a>
-          <router-link to="/about" class="text-gray-700 hover:text-red-600 font-medium transition-colors duration-300">
+          <router-link to="/about" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">
             Tentang Kami
           </router-link>
-          <a href="#contact" class="text-gray-700 hover:text-red-600 font-medium transition-colors duration-300">
+          <a href="#contact" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">
             Kontak
           </a>
-          <a href="#track" class="bg-gradient-to-r from-red-600 to-red-700 text-white px-6 py-2 rounded-full font-semibold hover:from-red-700 hover:to-red-800 transition-all duration-300 shadow-md hover:shadow-lg">
+          <a href="#track" class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-2 rounded-full font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-md hover:shadow-lg">
             Lacak Kiriman
           </a>
         </nav>
@@ -43,19 +43,19 @@
       <!-- Mobile Navigation -->
       <div v-if="isMobileMenuOpen" class="md:hidden py-4 border-t border-gray-200">
         <nav class="flex flex-col space-y-4">
-          <router-link to="/" class="text-gray-700 hover:text-red-600 font-medium py-2">
+          <router-link to="/" class="text-gray-700 hover:text-blue-600 font-medium py-2">
             Beranda
           </router-link>
-          <a href="#services" class="text-gray-700 hover:text-red-600 font-medium py-2">
+          <a href="#services" class="text-gray-700 hover:text-blue-600 font-medium py-2">
             Layanan
           </a>
-          <router-link to="/about" class="text-gray-700 hover:text-red-600 font-medium py-2">
+          <router-link to="/about" class="text-gray-700 hover:text-blue-600 font-medium py-2">
             Tentang Kami
           </router-link>
-          <a href="#contact" class="text-gray-700 hover:text-red-600 font-medium py-2">
+          <a href="#contact" class="text-gray-700 hover:text-blue-600 font-medium py-2">
             Kontak
           </a>
-          <a href="#track" class="bg-gradient-to-r from-red-600 to-red-700 text-white px-6 py-3 rounded-full font-semibold text-center">
+          <a href="#track" class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-full font-semibold text-center">
             Lacak Kiriman
           </a>
         </nav>

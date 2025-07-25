@@ -3,7 +3,7 @@
     <div class="container mx-auto px-4 lg:px-8">
       <!-- Section Header -->
       <div class="text-center mb-16">
-        <div class="inline-flex items-center bg-red-100 text-red-600 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+        <div class="inline-flex items-center bg-blue-100 text-blue-600 px-4 py-2 rounded-full text-sm font-semibold mb-4">
           <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
             <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
           </svg>
@@ -20,13 +20,13 @@
       <!-- Services Grid -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
         <!-- JNE Express -->
-        <div class="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-l-4 border-red-600">
-          <div class="w-16 h-16 bg-gradient-to-br from-red-100 to-red-200 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-            <svg class="w-8 h-8 text-red-600" fill="currentColor" viewBox="0 0 20 20">
+        <div class="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-l-4 border-blue-600">
+          <div class="w-16 h-16 bg-gradient-to-br from-blue-100 to-blue-200 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+            <svg class="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
               <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"></path>
             </svg>
           </div>
-          <h3 class="text-xl font-bold text-gray-900 mb-4 group-hover:text-red-600 transition-colors duration-300">
+          <h3 class="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors duration-300">
             JNE Express
           </h3>
           <p class="text-gray-600 mb-6 leading-relaxed">
@@ -52,7 +52,7 @@
               Asuransi termasuk
             </li>
           </ul>
-          <a href="#" class="text-red-600 font-semibold hover:text-red-700 transition-colors duration-300">
+          <a href="#" class="text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300">
             Pelajari lebih lanjut →
           </a>
         </div>
