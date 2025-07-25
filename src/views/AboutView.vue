@@ -172,10 +172,10 @@
           Rasakan pengalaman pengiriman terbaik dan terpercaya untuk kebutuhan bisnis maupun personal Anda.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="#track" class="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-all duration-300 shadow-lg">
+          <a href="/#track" class="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-all duration-300 shadow-lg">
             Lacak Kiriman
           </a>
-          <a href="#services" class="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-blue-600 transition-all duration-300">
+          <a href="/#services" class="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-blue-600 transition-all duration-300">
             Lihat Layanan
           </a>
         </div>
